@@ -35,6 +35,7 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
+      <p>Hello, I'm</p>
         <h1>
           IBAD
         
@@ -49,6 +50,7 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
+
         <p className={styles.description}>
         I am build thing for web
         </p>
