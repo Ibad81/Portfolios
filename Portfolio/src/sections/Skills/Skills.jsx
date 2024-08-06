@@ -32,9 +32,3 @@ function Skills() {
     </section>
   );
 }
-
-<<<<<<< HEAD
-export default Skills;
-=======
-export default Skills;
->>>>>>> bb87035e8924c6d5e08f887e51600502528a1417

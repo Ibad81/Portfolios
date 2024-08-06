@@ -31,8 +31,8 @@ function Projects() {
         <ProjectCard
           src={Git}
           link="https://github.com/Ibad81/WT"
-          h3="Blog"
-          p="Blog App"
+          h3="Git"
+          p="Github Profile"
         />
       </div>
       
