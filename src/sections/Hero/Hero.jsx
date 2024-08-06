@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Ibad Baig"
+          alt="Profile picture of Harris Johnsen"
         />
         <img
           className={styles.colorMode}
@@ -35,24 +35,26 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
-      <p>Hello, I'm</p>
         <h1>
-          IBAD
-        
-          BAIG
+          Harris
+          <br />
+          Johnsen
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://github.com/Ibad81" target="_blank">
+          <a href="https://twitter.com/" target="_blank">
+            <img src={twitterIcon} alt="Twitter icon" />
+          </a>
+          <a href="https://github.com/" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/ibad-baig-06226b1ba/" target="_blank">
+          <a href="https://linkedin.com/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-
         <p className={styles.description}>
-        I am build thing for web
+          With a passion for developing modern React web apps for commercial
+          businesses.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

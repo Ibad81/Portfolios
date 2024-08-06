@@ -1,9 +1,9 @@
 import styles from './ProjectsStyles.module.css';
-import College from '../../assets/College-pic.png'
-import Travel from '../../assets/Travel-pic.jpg';
+import viberr from '../../assets/viberr.png';
+import freshBurger from '../../assets/fresh-burger.png';
+import hipsster from '../../assets/hipsster.png';
+import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
-import Blog from '../../assets/Blog-App.png';
-import Git from '../../assets/Git.jpg';
 
 function Projects() {
   return (
@@ -11,31 +11,30 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={College}
-          link="https://github.com/Ibad81/GLA-Portal"
-          h3="CP"
-          p="College portal"
+          src={viberr}
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="Viberr"
+          p="Streaming App"
         />
         <ProjectCard
-          src={Travel}
-          link="https://github.com/Ibad81/WT"
-          h3="WT"
-          p="World Tour"
+          src={freshBurger}
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="Fresh Burger"
+          p="Hamburger Restaurant"
         />
         <ProjectCard
-          src={Blog}
-          link="https://github.com/Ibad81/WT"
-          h3="Blog"
-          p="Blog App"
+          src={hipsster}
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="Hipsster"
+          p="Glasses Shop"
         />
         <ProjectCard
-          src={Git}
-          link="https://github.com/Ibad81/WT"
-          h3="Git"
-          p="Github Profile"
+          src={fitLift}
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="FitLift"
+          p="Fitness App"
         />
       </div>
-      
     </section>
   );
 }
